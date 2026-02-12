@@ -9,13 +9,23 @@ export default async function Home({ searchParams, params }) {
         Technical Agency
       </h1>
 
-      <Link href="/services">
-        Services
-      </Link>
+      <p>
+        <Link href="/services">
+          Services
+        </Link>
+      </p>
 
-      <Link href="/blogs">
-        Blogs
-      </Link>
+      <p>
+        <Link href="/blogs">
+          Blogs
+        </Link>
+      </p>
+
+      <p>
+        <Link href="/files">
+          Files
+        </Link>
+      </p>
     </>
   );
 }
