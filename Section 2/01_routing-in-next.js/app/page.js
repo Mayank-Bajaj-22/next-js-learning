@@ -1,6 +1,8 @@
 import Link from "next/link";
 
-export default function Home() {
+export default async function Home({ searchParams, params }) {
+  console.log(await searchParams)
+  console.log(await params)
   return (
     <>
       <h1>

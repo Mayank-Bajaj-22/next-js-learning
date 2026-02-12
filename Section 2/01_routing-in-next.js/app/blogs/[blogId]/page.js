@@ -1,0 +1,7 @@
+export default async function Blog({ params }) {
+    console.log(await params)
+    const { blogId } = await params;
+    return (
+        <h1>Blog 1: { blogId }</h1>
+    )
+}
