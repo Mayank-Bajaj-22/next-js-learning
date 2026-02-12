@@ -3,11 +3,15 @@ import Link from "next/link";
 export default function Services() {
     return (
         <>
-            <h1>Services Page!!</h1>
+            <h1>All Services</h1>
 
-            <Link href="/">
-                Home
-            </Link>
+            <p>
+                <Link href="/services/web-dev">Web Development</Link>
+            </p>
+
+            <p>
+                <Link href="/services/seo">SEO</Link>
+            </p>
         </>
     )
 }
