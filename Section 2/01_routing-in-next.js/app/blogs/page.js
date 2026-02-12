@@ -1,6 +1,8 @@
+export const metadata = {
+    title: "Blog",
+};
 export default async function Blog({ params }) {
-    console.log(await params);
-    
+    console.log(await params);   
     return (
         <>
             <h1>All Blogs</h1>
