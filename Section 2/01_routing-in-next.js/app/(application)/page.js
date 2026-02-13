@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ComponentPage from "../_components/page";
 
 export default async function Home({ searchParams, params }) {
   console.log(await searchParams)
@@ -8,6 +9,8 @@ export default async function Home({ searchParams, params }) {
       <h1>
         Technical Agency
       </h1>
+
+      <ComponentPage />
 
       <p>
         <Link href="/services">
